@@ -91,7 +91,7 @@ public class Good {
        
     @Override
     public String toString() {
-        return this.url+","+this.imgUrl+","+title+","+curPrice+","+originalPrice+","+sold+","+soldPercent;
+        return this.url+";"+this.imgUrl+";"+title+";"+curPrice+";"+originalPrice+";"+sold+";"+soldPercent;
     }
     
     
